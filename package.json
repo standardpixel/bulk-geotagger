@@ -1,0 +1,33 @@
+{
+  "name": "bulk-geotagger",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": "Eric Gelinas about@standardpixel.com",
+  "description": "A proof of concept for the easiest bulk geotagger everrrrr",
+  "contributors": [ 
+    {
+      "name": "Eric Gelinas",
+      "email": "eric@standardpixel.com"
+    } 
+  ],
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardpixel/standardpixel-prototype-boilerplate"
+  },
+  "dependencies" : {
+	"colors"   : "*",
+	"express"  : "*",
+	"hbs"      : "*",
+	"simpledb" : "*",
+	"yui"      : "*",
+	"less"     : "*",
+	"mocha"    : "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
