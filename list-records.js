@@ -10,7 +10,7 @@ console.log('\033[2J');
 console.log(('All Simple DB items in the ' + keys.aws.domain + ' domin with the prefix: ' + keys.aws.record_prefix).bold.underline);
 console.log('Getting list...');
 
-sdb.select('select * from ' + keys.aws.domain, function(error, result) {
+sdb.select('select * from `' + keys.aws.domain + '`', function(error, result) {
 	if(error) {
 		console.log('list-domain failed: '+error.Message );
 		return false;
