@@ -15,16 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/standardpixel/standardpixel-prototype-boilerplate"
+    "url": "https://github.com/standardpixel/bulk-geotagger.git"
   },
   "dependencies" : {
-	"colors"   : "*",
-	"express"  : "*",
-	"hbs"      : "*",
-	"simpledb" : "*",
-	"yui"      : "*",
-	"less"     : "*",
-	"mocha"    : "*"
+	"colors"                    : "*",
+	"express"                   : "*",
+	"hbs"                       : "*",
+	"simpledb"                  : "*",
+	"yui"                       : "*",
+	"less"                      : "*",
+	"mocha"                     : "*",
+	"gpx-time-location-extract" : "https://github.com/standardpixel/GPX-time-location-extract/tarball/master"
   },
   "license": "MIT",
   "engines": {
